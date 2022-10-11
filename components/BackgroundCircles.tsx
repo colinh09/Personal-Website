@@ -1,0 +1,27 @@
+import React from 'react'
+import { motion } from "framer-motion"
+
+type Props = {}
+
+function BackgroundCircles({}: Props) {
+  return (
+    <motion.div
+        initial = {{
+            opacity: 0,
+        }}
+        animate = {{
+            scale: [1, 1.7, 1],
+            opacity: [0.1, 0.5, 1.0],
+            borderRadius: ["20%", "50%", "20%"],
+        }}
+        transition = {{
+            duration: 2.5,
+        }}
+    className = "relative flex justify-center items-center">
+        <div className="absolute border border-[#333333] rounded-full h-[610px] w-[610px] mt-52"/>
+        <div className="absolute rounded-full border border-[#228C22] opacity-20 h-[680px] w-[680px] mt-52 animate-pulse"/>
+    </motion.div>
+  )
+}
+
+export default BackgroundCircles
