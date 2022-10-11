@@ -29,16 +29,13 @@ function Hero({}: Props) {
                 <Cursor cursorColor="#228C22" />
             </h1>
             <div className="pt-5">
-                <Link href="#about">
+                <Link href="/AboutMe" target="_blank">
                 <button className="heroButton"> About </button>
                 </Link>
-                <Link href="#experience">
+                <Link href="/Experience">
                 <button className="heroButton"> Experience </button>              
                 </Link>
-                <Link href="#skills">
-                <button className="heroButton"> Skills </button>                 
-                </Link>
-                <Link href="#projects">
+                <Link href="/Projects">
                 <button className="heroButton"> Projects </button>           
                 </Link>
             </div>

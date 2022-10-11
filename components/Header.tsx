@@ -32,7 +32,7 @@ function Header({}: Props) {
 
             <SocialIcon url="https://open.spotify.com/user/p0ney3wrgf83y10ivkpwcyjuy" fgColor = "gray" bgColor = "transparent" target = "_blank"/>
         </motion.div>
-        <Link href="#contact">
+        <Link href="/Mail">
           <motion.div 
           initial={{
             opacity: 0,
