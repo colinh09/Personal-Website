@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid"
 import { useForm, SubmitHandler } from "react-hook-form";
+import Footer from './Footer';
 
 type Props = {}
 
@@ -18,12 +19,12 @@ function Contact({}: Props) {
         handleSubmit,
     } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => {
-        window.location.href =  `mailto:hcolin0910@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`
+        window.location.href =  `mailto:hcolin0910@gmail.com?subject=${formData.subject}&body=${formData.message}`
     };
 
   return (
     <div className = "h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-        <h3 className = "absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Contact</h3>
+        <h3 className = "absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Contact Me</h3>
 
         <div className = "flex flex-col space-y-10">
             <h4 className = "text-4xl font-semibold text-center">
@@ -33,7 +34,7 @@ function Contact({}: Props) {
             <div className = "space-y-10">
                 <div className = "flex items-center space-x-5 justify-center">
                     <PhoneIcon className = "text-[#228C22] h-7 w-7 animate-pulse"/>
-                    <p className="text-2xl">+123456789</p>
+                    <p className="text-2xl">+516-996-8066</p>
                 </div>
 
                 <div className = "flex items-center space-x-5 justify-center">
@@ -41,10 +42,10 @@ function Contact({}: Props) {
                     <p className="text-2xl">hcolin0910@gmail.com</p>
                 </div>
 
-                <div className = "flex items-center space-x-5 justify-center">
+                {/* <div className = "flex items-center space-x-5 justify-center">
                     <MapPinIcon className = "text-[#228C22] h-7 w-7 animate-pulse"/>
                     <p className="text-2xl">123 Dev. Lane</p>
-                </div>
+                </div> */}
 
             </div>
 
@@ -59,7 +60,7 @@ function Contact({}: Props) {
                 <textarea {...register('message')} placeholder="Message" className="contactInput" />
                 <button type="submit" className= "bg-[#228C22] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
             </form>
-        </div>
+        </div>       
     </div>
   )
 }

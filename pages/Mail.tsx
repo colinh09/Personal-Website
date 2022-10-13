@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import { homedir } from 'os'
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 const Home: NextPage = () => {
@@ -13,6 +14,9 @@ const Home: NextPage = () => {
             <section className="snap-start" id="hero">
                 <Contact />
             </section>
+            <div className = "bg-black sticky bottom-0">
+                    <Footer />  
+            </div>   
         </div>
     )
 }

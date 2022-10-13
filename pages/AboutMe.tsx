@@ -7,6 +7,7 @@ import AltAbout from '../components/AltAbout';
 import Header from '../components/Header';
 import useLocalStorage from 'use-local-storage'
 import { render } from 'react-dom';
+import Footer from '../components/Footer';
 
 // export const getStaticProps = async() => {
 //     const aboutText = [
@@ -51,7 +52,10 @@ const Home: NextPage = () => {
                     <About title={"title3"} text={"testing3"} src={"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"}/>
                 </section>
 
-             </div>
+                <div className = "bg-black sticky bottom-0">
+                    <Footer />  
+                </div>        
+             </div> 
         </div>
     )
 }
