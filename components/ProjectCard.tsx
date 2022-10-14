@@ -17,8 +17,8 @@ function ProjectCard({title, skills, link, bullet_one, bullet_two}) {
         whileTap={{scale:0.8}}
         onClick={() => (modalOpen ? close() : open() )}>
             <div className = "px-0 md:px-10">
-                <h4 className="text-4xl font-light"> {title} </h4>
-                <p className = "font-bold text-2xl mt-1"> Skills Used: {skills} </p>
+                <h4 className="text-3xl font-light"> {title} </h4>
+                <p className = "font-bold text-md mt-1"> Skills Used: {skills} </p>
                 <p className = "upperace py-5 text-gray-300"> Click To Read More </p>
             </div>
         </motion.button>         

@@ -28,22 +28,33 @@ const Home: NextPage = () => {
                 </div>
 
                 <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
-                    bullet_one="bullet one"
-                    bullet_two="bullet two" 
-                    />
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
-                    bullet_one="bullet one"
-                    bullet_two="bullet two" 
+                    <ProjectCard title = "Checkers Playing AI" skills = "OOP, AI, Minimax Search, Heuristic Function, C++" link = {"https://github.com/colinh09/AI-Checkers"} 
+                    bullet_one="Implemented a game playing program in C++ that plays checkers against the user with the capability to win against
+                    an above average player. Capable of making moves two/three turns in advance."
+                    bullet_two="Combines iterative deepening, minimax search with alpha beta pruning, and a heuristic function to search the game
+                    space for ideal moves." />
+                    <ProjectCard title = "Game Review Sentiment Analysis" 
+                    skills = "Sentiment Analysis, TensorFlow, Recurrent Nerual Network, LSTMs, Stochastic Gradient Descent" 
+                    link = {"https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis"} 
+                    bullet_one="Utilized Python and Keras, TensorFlow’s deep learning API, to develop a neural network with the task of
+                    predicting game reviews. The neural network was trained and tested using a dataset consisting of approximately
+                    5,000 game reviews from GameStop’s website."
+                    bullet_two="Experimented with various models and hyperparameters to arrive at an architecture consisting of an embedding
+                    layer that received one-hot vectors as input, two fully connected recurrent neural networks as hidden layers, and a
+                    dense layer with SoftMax activation as the output layer. The model achieved an accuracy of 93.81%." 
                     />
                 </div>
 
                 <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
-                    bullet_one="bullet one"
-                    bullet_two="bullet two" 
+                    <ProjectCard title = "Neural Network - From Scratch" skills = "Neural Network, Machine Learning, Confusion Matrix, Back Propagation" link = {"https://github.com/colinh09/AI-Neural-Network"} 
+                    bullet_one="Developed a program that allows for the testing and training of a neural network consisting of one hidden layer. The program prompts the user for a set of parameters, such as the number of epochs, a learning rate, and a training
+                    file, that will determine how well the neural network learns."
+                    bullet_two="Training is done with back-propagation, and an output file with several metrics will display how well the trained
+                    neural network performs on a testing file." 
                     />
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
+                    <ProjectCard title = "project title" 
+                    skills = "linked priority hashmap queue sort linkeded list O(1)" 
+                    link = {"https://github.com/colinh09"} 
                     bullet_one="bullet one"
                     bullet_two="bullet two" 
                     />
@@ -62,13 +73,21 @@ const Home: NextPage = () => {
                 </div>
 
                 <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
-                    bullet_one="bullet one"
-                    bullet_two="bullet two" 
+                <ProjectCard title = "Game Review Sentiment Analysis" 
+                    skills = "Sentiment Analysis, TensorFlow, Recurrent Nerual Network, LSTMs, Stochastic Gradient Descent" 
+                    link = {"https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis"} 
+                    bullet_one="Utilized Python and Keras, TensorFlow’s deep learning API, to develop a neural network with the task of
+                    predicting game reviews. The neural network was trained and tested using a dataset consisting of approximately
+                    5,000 game reviews from GameStop’s website."
+                    bullet_two="Experimented with various models and hyperparameters to arrive at an architecture consisting of an embedding
+                    layer that received one-hot vectors as input, two fully connected recurrent neural networks as hidden layers, and a
+                    dense layer with SoftMax activation as the output layer. The model achieved an accuracy of 93.81%." 
                     />
-                    <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
-                    bullet_one="bullet one"
-                    bullet_two="bullet two" 
+                    <ProjectCard title = "Neural Network - From Scratch" skills = "Neural Network, Machine Learning, Confusion Matrix, Back Propagation" link = {"https://github.com/colinh09/AI-Neural-Network"} 
+                    bullet_one="Developed a program that allows for the testing and training of a neural network consisting of one hidden layer. The program prompts the user for a set of parameters, such as the number of epochs, a learning rate, and a training
+                    file, that will determine how well the neural network learns."
+                    bullet_two="Training is done with back-propagation, and an output file with several metrics will display how well the trained
+                    neural network performs on a testing file." 
                     />
                 </div>
                 {/* ----------------- MACHINE LEARNING ---------------------*/}          

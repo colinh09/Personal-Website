@@ -22,6 +22,9 @@ function Footer({}: Props) {
         }}
         className = "flex flex-row items-center text-gray-300 cursor-pointer">
             <p className = "uppercase hidden md:inline-flex text-xl text-gray-400 tracking-[8px]"> Colin Hwang </p>
+            {/* <Link href="/Resume.pdf" target="_blank">
+                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] "> Resume </button>
+            </Link> */}
         </motion.div>
 
         <motion.div 

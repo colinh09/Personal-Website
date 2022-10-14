@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Link from 'next/link';
 import { homedir } from 'os'
 import ExperienceCard from '../components/ExperienceCard';
 import Footer from '../components/Footer';
@@ -9,12 +10,19 @@ const Home: NextPage = () => {
         <div>
             <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#228C22]/80">
                 <Header />
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
                         EXPERIENCE
                     </h3>
                 </div>
-                
+                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
+                    <h3 className="relative top-20 tracking-[3px] text-gray-500 text-xl ">
+                        To view my resume, click 
+                        <span className='text-xl uppercase tracking-widest text-gray-500 hover:text-[#228C22]/40'>
+                            <Link href="/Resume.pdf" target="_blank"> HERE </Link>
+                        </span>
+                    </h3>
+                </div>         
                 <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                     <div className = "md:pb-0 pb-10">
                         <ExperienceCard title = "Software Engineer" company="Applause" 

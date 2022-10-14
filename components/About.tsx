@@ -33,14 +33,6 @@ function About( {text, src, title} ) {
             <p className = "text-md text-justify">
                 {text}
             </p>
-            <p className = "text-md text-justify">
-                To view my resume and transcript, click on 
-                <Link download href="/public/resume.pdf" locale={false}>
-                     RESUME
-                </Link>
-                or 
-                TRANSCRIPT.
-            </p>
         </div>
     </motion.div>
   )
