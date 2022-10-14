@@ -23,7 +23,7 @@ function ProjectCard({title, skills, link, bullet_one, bullet_two}: {title: stri
             </div>
         </motion.button>         
 
-        {modalOpen && <ProjectModal modalOpen={modalOpen} handleClose={close} title={title} link={link} skills={skills} bullet_one={bullet_one} bullet_two={bullet_two}/>}
+        {modalOpen && <ProjectModal handleClose={close} title={title} link={link} skills={skills} bullet_one={bullet_one} bullet_two={bullet_two}/>}
     </article>
   )
 }

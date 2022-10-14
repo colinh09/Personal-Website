@@ -22,7 +22,7 @@ function ExperienceCard({title, company, bullet_one, bullet_two, bullet_three}: 
             </div>
         </motion.button>         
 
-        {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} title={title} company={company} bullet_one={bullet_one} bullet_two={bullet_two} bullet_three={bullet_three}/>}
+        {modalOpen && <Modal handleClose={close} title={title} company={company} bullet_one={bullet_one} bullet_two={bullet_two} bullet_three={bullet_three}/>}
     </article>
   )
 }
