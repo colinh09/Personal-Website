@@ -42,7 +42,7 @@ function Modal({handleClose, bullet_one, bullet_two, bullet_three, title, compan
             <ul className = "text-slate-500 list-disc space-y-4 ml-5 text-lg">
                 <li>{bullet_one}</li>
                 <li>{bullet_two}</li>
-                <li>{bullet_three}</li>
+                <li className="pb-10">{bullet_three}</li>
             </ul>
             <button onClick={handleClose} className = "heroButton">Close</button>
         </motion.div>
