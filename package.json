@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.12",
-    "@react-pdf/renderer": "^3.0.0",
     "form-data": "^4.0.0",
     "framer-motion": "^7.5.3",
     "next": "12.3.1",
