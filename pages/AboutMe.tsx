@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                             <div className="space-y-5 px-0 md:px-10 pt-5">
                                 <h4 className="text-2xl font-semibold">Favorite Color?</h4>
                                     <p className = "text-md text-justify">
-                                        I'd be somewhat surprised if you hadn't guessed it already. Green.
+                                        I would be be somewhat surprised if you had not guessed it already. Green.
                                     </p>
                             </div>  
 
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                             <div className="space-y-5 px-0 md:px-10">
                                 <h4 className="text-2xl font-semibold">Favorite Video Game?</h4>
                                     <p className = "text-md text-justify">
-                                        5 year old me would've said Pokemon Sapphire. High school me would've said the dark souls triology. Current me says teamfight tactics.
+                                        5 year old me would have said Pokemon Sapphire. High school me would have said the dark souls triology. Current me says teamfight tactics.
                                     </p>
                             </div>        
 
