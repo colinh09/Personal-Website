@@ -5,7 +5,7 @@ import Modal from './Modal';
 
 type Props = {}
 
-function ExperienceCard({title, company, bullet_one, bullet_two, bullet_three}) {
+function ExperienceCard({title, company, bullet_one, bullet_two, bullet_three}: {title: string, company: string, bullet_one: string, bullet_two: string, bullet_three: string}) {
     const [modalOpen, setModalOpen] = useState(false);
     const close = () => setModalOpen(false);
     const open = () => setModalOpen(true);

@@ -6,7 +6,7 @@ import Link from "next/link"
 
 type Props = {}
 
-function ProjectModal({handleClose, bullet_one, bullet_two, title, skills, link}) {
+function ProjectModal({handleClose, bullet_one, bullet_two, title, skills, link}: {handleClose: () => void, bullet_one: string, bullet_two: string, title: string, skills: string, link: string}) {
   return (
     <Backdrop onClick = {handleClose}>
         <motion.div

@@ -26,7 +26,7 @@ type Props = {}
 //     },
 // }
 
-function Modal({handleClose, bullet_one, bullet_two, bullet_three, title, company}) {
+function Modal({handleClose, bullet_one, bullet_two, bullet_three, title, company}: {handleClose: () => void, bullet_one: string, bullet_two: string, bullet_three: string, title: string, company: string}) {
   return (
     <Backdrop onClick = {handleClose}>
         <motion.div

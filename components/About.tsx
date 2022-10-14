@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type Props = {}
 
-function About( {text, src, title} ) {
+function About( {text, src, title} : {text: string, src: string, title: string}) {
   return (
     <motion.div 
     initial = {{

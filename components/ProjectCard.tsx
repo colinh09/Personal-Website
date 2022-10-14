@@ -6,7 +6,7 @@ import ProjectModal from './ProjectModal';
 
 type Props = {}
 
-function ProjectCard({title, skills, link, bullet_one, bullet_two}) {
+function ProjectCard({title, skills, link, bullet_one, bullet_two}: {title: string; skills: string, link: string, bullet_one: string, bullet_two: string}) {
     const [modalOpen, setModalOpen] = useState(false);
     const close = () => setModalOpen(false);
     const open = () => setModalOpen(true);

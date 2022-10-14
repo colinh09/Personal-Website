@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 type Props = {}
 
-function AltAbout({title, src, text}) {
+function AltAbout({title, src, text}: {title: string, src: string, text: string}) {
   return (
     <motion.div 
     initial = {{
