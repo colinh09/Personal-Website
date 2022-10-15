@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                         </div>
                         <div className="relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 py-10 justify-evenly mx-auto items-center">
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Programming Language(s) / Least Favorite Programming Language(s)?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Favorite Programming Language(s) / Least Favorite Programming Language(s)?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         Python and C++, in that order / Matlab.
                                     </p>
@@ -52,49 +52,49 @@ const Home: NextPage = () => {
 
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Shows / Movies?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Favorite Shows / Movies?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         Arcane, Buisiness Proposal, Code Geass, Death Note, HunterxHunter, Hajime no Ippo, Your Lie in April.  
                                     </p>
                             </div>
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Color?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Favorite Color?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         I would be be somewhat surprised if you had not guessed it already. Green.
                                     </p>
                             </div>  
 
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold"></h4>
+                                <h4 className="lg:text-2xl text-md font-semibold"></h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         
                                     </p>
                             </div>                              
 
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Video Game?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Favorite Video Game?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         5 year old me would have said Pokemon Sapphire. High school me would have said the dark souls triology. Current me says teamfight tactics.
                                     </p>
                             </div>        
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Dream Job?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Dream Job?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         To be able to contribute to a game similar to my favorites.
                                     </p>
                             </div>   
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Music Artist / Favorite Music Group / Favorite Song?</h4>
+                                <h4 className=" lg:text-2xl text-md font-semibold">Favorite Music Artist / Favorite Music Group / Favorite Song?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         Joji / Itzy / Wanted U - Joji
                                     </p>
                             </div>
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Food / Favorite Desert / Favorite Fruit / Chipotle Order?</h4>
+                                <h4 className="lg:text-2xl text-md font-semibold">Favorite Food / Favorite Desert / Favorite Fruit / Chipotle Order?</h4>
                                     <p className = "lg:text-md text-sm text-justify">
                                         Doenjang Jjigae / Brownies served hot with vanilla ice cream on top / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac), ask for a water cup and fill it with diet coke, take several spoons and forks.
                                     </p>
