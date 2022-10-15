@@ -36,7 +36,7 @@ function Contact({}: Props) {
                     Lets Talk!
                 </h4>
 
-                <div className = "space-y-5">
+                <div className = "space-y-8">
                     <div className = "flex items-center justify-center">
                         <PhoneIcon className = "text-[#228C22] h-7 w-7 animate-pulse"/>
                         <p className="text-2xl">+516-996-8066</p>
