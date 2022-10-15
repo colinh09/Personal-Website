@@ -20,7 +20,7 @@ function About( {text, title} : {text: string, title: string}) {
     transition = {{
         duration: 1.5,
     }}
-    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center py-2">
         <Image
         src = {cooper}
         alt = "lol"
