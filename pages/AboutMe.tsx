@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                     text={"This is a more relaxed introduction, with all the technical stuff aside. I currently live in the upper east side of New York, therefore making my commute to Cooper Union about 20 minutes via the 6 line. I am an introvert at heart. You could lock me in my room with my PC, my bed, and a bathroom for a month, giving me only the necessary things to survive, and I will be happy. I love playing video games, but the only game I currently play (primarily due to the insane workload of Cooper Union), is teamfight tactics. Currently, the things I enjoy doing are spending time with my girlfriend/friends, gaming, and studying game development/full stack development. My taste in music often shifts due to over-listening to certain genres, but as of recently, my favorite music to listen to comes from a Kpop group called Itzy. I enjoy working out, and I wish to be as strong as possible while maintaining a certain degree of athleticism. One thing I wish to accomplish by the end of this year is to make my own, very basic and rudimentary, 2D game using Unity. You can view FAQs that no one ever asked me (therefore not making them very frequently asked) by scrolling further down. "} 
                     />        
 
-                {/* About Me part 3 | more relaxed information*/}
+                {/* About Me part 3 | more relaxed information */}
                     <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 py-20 justify-evenly mx-auto items-center">
                         <h3 className="relative uppercase tracking-[20px] text-gray-500 text-2xl ">
                             Potential FAQs!
