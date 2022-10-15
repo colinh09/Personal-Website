@@ -7,7 +7,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-<header className="sticky top-0 flex items-start lg:p-5 p-2 justify-between max-w-7xl mx-auto z-20 xl:items-center">
+<header className="sticky top-0 flex items-start lg:p-5 px-5 py-1 justify-between max-w-7xl mx-auto z-20 xl:items-center">
         <motion.div 
         initial={{ 
           opacity: 0,
