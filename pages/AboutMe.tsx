@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import useLocalStorage from 'use-local-storage'
 import { render } from 'react-dom';
 import Footer from '../components/Footer';
+import Image from 'next/image'
 
 
 // export const getStaticProps = async() => {

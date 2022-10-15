@@ -4,8 +4,5 @@ const nextConfig = {
   swcMinify: true,
 }
 
-images = {
-  path: `${basePath}/_next/image`,
-}
 
 module.exports = nextConfig
