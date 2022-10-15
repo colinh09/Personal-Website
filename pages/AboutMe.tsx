@@ -9,6 +9,8 @@ import useLocalStorage from 'use-local-storage'
 import { render } from 'react-dom';
 import Footer from '../components/Footer';
 import Image from 'next/image'
+import me from '/../static/me2.jpg'
+import cooper from '/../static/CU.webp'
 
 
 // export const getStaticProps = async() => {
@@ -44,7 +46,7 @@ const Home: NextPage = () => {
                     <About 
                     title={"A Small Introduction"} 
                     text={"My name is Colin Hwang, and I am a current junior pursuing both a B.Eng and a M.Eng at The Cooper Union for the Advancement of Science and Art. I am studying electrical engineering, and although Cooper Union’s curriculum for engineers is incredibly rigid, I aim to take as many electives that align with my interests and goals as possible. These courses include AI, various machine learning classes, and databases, indicating that I am more interested in software than hardware. This led me down the “computer engineering” track rather than the “hardware” track of electrical engineering. I spent the last summer interning as a software engineer at Applause, where I worked with a team to refine and test an algorithm that will be used for the next generation of VR devices. Using the data collected from testing, my team presented deliverables to a client in a timely and efficient manner. The experience I gained at Applause was invaluable, and I hope to explore my interests and expand my skills further this summer with new software engineering internships. Scroll down to hear a more non-technical introduction about me."} 
-                    src={"/../static/CU.webp"}/>
+                    src={cooper || '/../static/CU.webp'}/>
                 </section>
 
                 {/* About Me part 2 | talk about experience*/}
