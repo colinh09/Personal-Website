@@ -16,7 +16,7 @@ const Home: NextPage = () => {
                         EXPERIENCE
                     </h3>
                 </div>
-                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
+                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-5 justify-evenly mx-auto items-center">
                     <h3 className="relative lg:top-5 top-2 tracking-[3px] text-gray-500 text-xl ">
                         To view my resume, click 
                         <span className='text-xl uppercase tracking-widest text-gray-500 hover:text-[#228C22]/40'>

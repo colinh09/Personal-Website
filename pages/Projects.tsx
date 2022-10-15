@@ -21,13 +21,13 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- DATA STRUCTURES AND ALGORITHMS ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
                     <h3 className="relative lg:top-5 top-2 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Data Structures and Algorithms
                     </h3>
                 </div>
 
-                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
+                <div className = "w-full flex xl:pt-15 lg:pt-10 md:pt-5 pt-5 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                     <ProjectCard title = "Checkers Playing AI" skills = "OOP, AI, Minimax Search, Heuristic Function, C++" link = {"https://github.com/colinh09/AI-Checkers"} 
                     bullet_one="Implemented a game playing program in C++ that plays checkers against the user with the capability to win against
                     an above average player. Capable of making moves two/three turns in advance."
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                     />
                 </div>
 
-                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
+                <div className = "w-full flex xl:pt-15 lg:pt-10 md:pt-5 pt-5 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                     <ProjectCard title = "Neural Network - From Scratch" skills = "Neural Network, Machine Learning, Confusion Matrix, Back Propagation" link = {"https://github.com/colinh09/AI-Neural-Network"} 
                     bullet_one="Developed a program that allows for the testing and training of a neural network consisting of one hidden layer. The program prompts the user for a set of parameters, such as the number of epochs, a learning rate, and a training
                     file, that will determine how well the neural network learns."
@@ -66,13 +66,13 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- MACHINE LEARNING ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Machine Learning
                     </h3>
                 </div>
 
-                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
+                <div className = "w-full flex xl:pt-15 lg:pt-10 md:pt-5 pt-5 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                 <ProjectCard title = "Game Review Sentiment Analysis" 
                     skills = "Sentiment Analysis, TensorFlow, Recurrent Nerual Network, LSTMs, Stochastic Gradient Descent" 
                     link = {"https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis"} 
@@ -94,13 +94,13 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- WEB APPS ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Web Apps / Web Development
                     </h3>
                 </div>
 
-                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
+                <div className = "w-full flex xl:pt-15 lg:pt-10 md:pt-5 pt-5 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                     <ProjectCard title = "project title" skills = "linked priority hashmap queue sort linkeded list O(1)" link = {"https://github.com/colinh09"} 
                     bullet_one="bullet one"
                     bullet_two="bullet two" 
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- GAME DEV  ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Game Development (Coming Soon!)
                     </h3>            
