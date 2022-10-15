@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion"
 import Modal from './Modal';
-import resume from './/../static/Resume.pdf'
 
 type Props = {}
 
