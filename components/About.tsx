@@ -4,10 +4,11 @@ import useLocalStorage from 'use-local-storage'
 import React, { useState } from 'react';
 import Image from 'next/image'
 import Link from "next/link";
+import cooper from '/../static/CU.webp'
 
 type Props = {}
 
-function About( {text, src, title} : {text: string, src: string, title: string}) {
+function About( {text, title} : {text: string, title: string}) {
   return (
     <motion.div 
     initial = {{
@@ -21,7 +22,7 @@ function About( {text, src, title} : {text: string, src: string, title: string})
     }}
     className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
         <Image
-        src = {src}
+        src = {cooper}
         alt = "lol"
         width = "5500"
         height = "5500"
