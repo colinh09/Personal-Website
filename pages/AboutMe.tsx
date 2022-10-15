@@ -21,8 +21,8 @@ const Home: NextPage = () => {
              <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#228C22]/80">
                 {/* Header */}
                 <Header />
-                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-5 justify-evenly mx-auto items-center">
-                    <h3 className="absolute top-15 uppercase tracking-[20px] text-gray-500 text-2xl ">
+                <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-10 justify-evenly mx-auto items-center">
+                    <h3 className="relative top-15 uppercase tracking-[20px] text-gray-500 text-2xl ">
                         ABOUT ME
                     </h3>
                 </div>
