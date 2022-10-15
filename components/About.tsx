@@ -24,14 +24,14 @@ function About( {text, title} : {text: string, title: string}) {
         <Image
         src = {cooper}
         alt = "lol"
-        width = "5500"
-        height = "5500"
+        width = "4000"
+        height = "4000"
         className = "mb-20 md:mb-0 flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px]"
         />
 
         <div className="space-y-10 px-0 md:px-10">
-            <h4 className="text-4xl font-semibold">{title}</h4>
-            <p className = "text-md text-justify">
+            <h4 className="text-2xl font-semibold">{title}</h4>
+            <p className = "text-base text-justify">
                 {text}
             </p>
         </div>
