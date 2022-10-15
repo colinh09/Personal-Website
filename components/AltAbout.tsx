@@ -1,10 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import Image from 'next/image'
+import me from './/../static/me2.jpg'
 
 type Props = {}
 
-function AltAbout({title, src, text}: {title: string, src: string, text: string}) {
+function AltAbout({title, text}: {title: string, text: string}) {
   return (
     <motion.div 
     initial = {{
@@ -26,7 +27,7 @@ function AltAbout({title, src, text}: {title: string, src: string, text: string}
         </div>
 
         <Image
-        src = {src}
+        src = {me}
         alt = "lol"
         width = "7000"
         height = "7000"
