@@ -18,7 +18,7 @@ const Home: NextPage = () => {
                     ABOUT ME
                 </h3>
             </div> */}
-             <div className="bg-[#36393f] text-white h-screen z-0">
+             <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#228C22]/80">
                 {/* Header */}
                 <Header />
                 {/* About Me part 1 | General introduction*/}
