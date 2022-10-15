@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                 {/* About Me part 2 | talk about experience*/}
                 <section className="snap-start">
                     <AltAbout title={"Get To Know Me Better"} 
-                    text={"This is a more relaxed introduction, with all the technical stuff aside. I currently live in the upper east side of New York, therefore making my commute to Cooper Union about 20 minutes via the 6 line. I am an introvert at heart. You could lock me in my room with my PC, my bed, and a bathroom for a month, giving me only the necessary things to survive, and I will be happy. I love playing video games, but the only game I currently play (primarily due to the insane workload of Cooper Union), is teamfight tactics. Currently, the things I enjoy doing are spending time with my girlfriend/friends, gaming, and studying game development/full stack development. My taste in music often shifts due to over-listening to certain genres, but as of recently, my favorite music to listen to comes from a Kpop group called Itzy. I enjoy working out, and I wish to be as strong as possible while maintaining a certain degree of athleticism. I never work out legs; not because I’m lazy, but because if I do one squat, my quads will triple in size (slight exaggeration, but very close to the truth). One thing I wish to accomplish by the end of this year is to make my own, very basic and rudimentary, 2D game using Unity. You can view FAQs that no one ever asked me (therefore not making them very frequently asked) by scrolling further down. "} 
+                    text={"This is a more relaxed introduction, with all the technical stuff aside. I currently live in the upper east side of New York, therefore making my commute to Cooper Union about 20 minutes via the 6 line. I am an introvert at heart. You could lock me in my room with my PC, my bed, and a bathroom for a month, giving me only the necessary things to survive, and I will be happy. I love playing video games, but the only game I currently play (primarily due to the insane workload of Cooper Union), is teamfight tactics. Currently, the things I enjoy doing are spending time with my girlfriend/friends, gaming, and studying game development/full stack development. My taste in music often shifts due to over-listening to certain genres, but as of recently, my favorite music to listen to comes from a Kpop group called Itzy. I enjoy working out, and I wish to be as strong as possible while maintaining a certain degree of athleticism. One thing I wish to accomplish by the end of this year is to make my own, very basic and rudimentary, 2D game using Unity. You can view FAQs that no one ever asked me (therefore not making them very frequently asked) by scrolling further down. "} 
                     />
                 </section>            
 
@@ -44,58 +44,58 @@ const Home: NextPage = () => {
                         </div>
                         <div className="relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 py-10 justify-evenly mx-auto items-center">
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="text-2xl font-semibold">Favorite Programming Language(s) / Least Favorite Programming Language(s)?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Programming Language(s) / Least Favorite Programming Language(s)?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         Python and C++, in that order / Matlab.
                                     </p>
                             </div>  
 
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="text-2xl font-semibold">Favorite Shows / Movies?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Shows / Movies?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         Arcane, Buisiness Proposal, Code Geass, Death Note, HunterxHunter, Hajime no Ippo, Your Lie in April.  
                                     </p>
                             </div>
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="text-2xl font-semibold">Favorite Color?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Color?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         I would be be somewhat surprised if you had not guessed it already. Green.
                                     </p>
                             </div>  
 
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="text-2xl font-semibold"></h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold"></h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         
                                     </p>
                             </div>                              
 
                             <div className="space-y-5 px-0 md:px-10">
-                                <h4 className="text-2xl font-semibold">Favorite Video Game?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Video Game?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         5 year old me would have said Pokemon Sapphire. High school me would have said the dark souls triology. Current me says teamfight tactics.
                                     </p>
                             </div>        
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="text-2xl font-semibold">Dream Job?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Dream Job?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         To be able to contribute to a game similar to my favorites.
                                     </p>
                             </div>   
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="text-2xl font-semibold">Favorite Music Artist / Favorite Music Group / Favorite Song?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Music Artist / Favorite Music Group / Favorite Song?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         Joji / Itzy / Wanted U - Joji
                                     </p>
                             </div>
 
                             <div className="space-y-5 px-0 md:px-10 pt-5">
-                                <h4 className="text-2xl font-semibold">Favorite Food / Favorite Desert / Favorite Fruit / Chipotle Order?</h4>
-                                    <p className = "text-md text-justify">
+                                <h4 className="md:text-xl lg:text-2xl text-md font-semibold">Favorite Food / Favorite Desert / Favorite Fruit / Chipotle Order?</h4>
+                                    <p className = "lg:text-md text-sm text-justify">
                                         Doenjang Jjigae / Brownies served hot with vanilla ice cream on top / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac), ask for a water cup and fill it with diet coke, take several spoons and forks.
                                     </p>
                             </div>
