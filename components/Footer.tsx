@@ -21,7 +21,7 @@ function Footer({}: Props) {
         duration: 1.5,
         }}
         className = "flex flex-row items-center text-gray-300 cursor-pointer">
-            <p className = "uppercase hidden md:inline-flex text-xl text-gray-400 tracking-[8px]"> Colin Hwang </p>
+            <p className = "uppercase hidden md:inline-flex text-sm text-gray-400 tracking-[8px]"> Colin Hwang </p>
             {/* <Link href="/Resume.pdf" target="_blank">
                 <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] "> Resume </button>
             </Link> */}
@@ -42,16 +42,16 @@ function Footer({}: Props) {
         className = "flex flex-row items-center">
             {/* Links */}
             <Link href="/" target="_blank">
-                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px]"> Home </button>
+                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] text-sm"> Home </button>
             </Link>
             <Link href="/AboutMe" target="_blank">
-                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px]"> About </button>
+                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] text-sm"> About </button>
             </Link>
             <Link href="/Experience">
-                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px]"> Experience </button>              
+                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] text-sm"> Experience </button>              
             </Link>
             <Link href="/Projects">
-                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px]"> Projects </button>           
+                <button className="hover:text-[#228C22]/40 px-3 tracking-[3px] text-sm"> Projects </button>           
             </Link>
         </motion.div>
     </div>
