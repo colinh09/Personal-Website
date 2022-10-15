@@ -11,7 +11,7 @@ const Home: NextPage = () => {
                 {/* ----------------- HEADER ---------------------*/}
                 <Header />
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-5 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-15 uppercase tracking-[20px] text-gray-500 text-3xl ">
+                    <h3 className="relative top-15 uppercase tracking-[20px] text-gray-500 text-2xl ">
                         PROJECTS
                     </h3>
                 </div>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
                 {/* ----------------- DATA STRUCTURES AND ALGORITHMS ---------------------*/}
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
-                    <h3 className="relative lg:top-5 top-2 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
+                    <h3 className="relative lg:top-5 top-2 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Data Structures and Algorithms
                     </h3>
                 </div>
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
 
                 {/* ----------------- MACHINE LEARNING ---------------------*/}
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
+                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Machine Learning
                     </h3>
                 </div>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
 
                 {/* ----------------- WEB APPS ---------------------*/}
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
+                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Web Apps / Web Development
                     </h3>
                 </div>
@@ -118,7 +118,7 @@ const Home: NextPage = () => {
 
                 {/* ----------------- GAME DEV  ---------------------*/}
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
+                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Game Development (Coming Soon!)
                     </h3>            
                 </div>
