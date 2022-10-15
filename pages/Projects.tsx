@@ -66,7 +66,7 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- MACHINE LEARNING ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-22 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Machine Learning
                     </h3>
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- WEB APPS ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-22 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Web Apps / Web Development
                     </h3>
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
 
 
                 {/* ----------------- GAME DEV  ---------------------*/}
-                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-22 justify-evenly mx-auto items-center">
                     <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-xl underline decoration-[#000000]/50">
                         Game Development (Coming Soon!)
                     </h3>            
