@@ -17,7 +17,7 @@ function AltAbout({title, text}: {title: string, text: string}) {
     transition = {{
         duration: 1.5,
     }}
-    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 py-0 justify-evenly mx-auto items-center">
 
         <div className="space-y-10 px-0 md:px-10">
             <h4 className="text-2xl font-semibold ">{title}</h4>
