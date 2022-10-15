@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 </section>            
 
                 {/* About Me part 3 | more relaxed information*/}
-                <section className="snap-start">
+                <section>
                         <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
                             <h3 className="relative top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
                                 Potential FAQs!

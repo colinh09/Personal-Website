@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                     </h3>
                 </div>
                 <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-10 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-20 tracking-[3px] text-gray-500 text-xl ">
+                    <h3 className="relative top-5 tracking-[3px] text-gray-500 text-xl ">
                         To view my resume, click 
                         <span className='text-xl uppercase tracking-widest text-gray-500 hover:text-[#228C22]/40'>
                             <Link href=".//../static/Resume.pdf" target="_blank"> HERE </Link>

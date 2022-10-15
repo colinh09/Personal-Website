@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
                 {/* ----------------- DATA STRUCTURES AND ALGORITHMS ---------------------*/}
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
-                    <h3 className="relative top-24 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
+                    <h3 className="relative top-5 uppercase tracking-[8px] text-gray-500 text-2xl underline decoration-[#000000]/50">
                         Data Structures and Algorithms
                     </h3>
                 </div>
