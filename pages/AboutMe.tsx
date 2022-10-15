@@ -9,8 +9,8 @@ import useLocalStorage from 'use-local-storage'
 import { render } from 'react-dom';
 import Footer from '../components/Footer';
 import Image from 'next/image'
-import me from '/../static/me2.jpg'
-import cooper from '/../static/CU.webp'
+// import me from '/../static/me2.jpg'
+// import cooper from '/../static/CU.webp'
 
 
 // export const getStaticProps = async() => {

@@ -4,7 +4,7 @@ import useLocalStorage from 'use-local-storage'
 import React, { useState } from 'react';
 import Image from 'next/image'
 import Link from "next/link";
-import cooper from '/../static/CU.webp'
+import cooper from './/../static/CU.webp'
 
 type Props = {}
 
