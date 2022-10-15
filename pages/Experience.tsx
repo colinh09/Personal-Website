@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Home: NextPage = () => {
     return (
         <div>
-            <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0 ">
+            <div className="bg-[#36393f] text-white h-screen z-0 ">
                 <Header />
                 <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-5 justify-evenly mx-auto items-center">
                     <h3 className="relative top-15 uppercase tracking-[20px] text-gray-500 text-2xl ">
@@ -56,14 +56,12 @@ const Home: NextPage = () => {
                     and presented to clients in an efficient and timely manner." 
                     bullet_three="Some other thing."
                     /> */}
-                </div>
-                <div className = "p-20">
-                    
-                </div>
-                <div className = "bg-black sticky bottom-0 text-white">
-                        <Footer />  
-                </div>                        
-            </div>     
+                </div>   
+            </div>          
+        {/* Remember that there's an issue here. If you add more experience cards, you will need y-overflow-scroll, and you will need to move this statement one block up. */}
+            <div className = "bg-black sticky bottom-0 text-white">
+                <Footer />  
+            </div>  
         </div>
     )
 }
