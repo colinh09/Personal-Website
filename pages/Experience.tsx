@@ -4,6 +4,8 @@ import { homedir } from 'os'
 import ExperienceCard from '../components/ExperienceCard';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Image from 'next/image'
+import resume from './/../static/Resume.pdf'
 
 const Home: NextPage = () => {
     return (
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
                     <h3 className="relative top-20 tracking-[3px] text-gray-500 text-xl ">
                         To view my resume, click 
                         <span className='text-xl uppercase tracking-widest text-gray-500 hover:text-[#228C22]/40'>
-                            <Link href="/Resume.pdf" target="_blank"> HERE </Link>
+                            <Link href={resume} target="_blank"> HERE </Link>
                         </span>
                     </h3>
                 </div>         
