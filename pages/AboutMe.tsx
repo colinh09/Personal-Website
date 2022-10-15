@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                     />        
 
                 {/* About Me part 3 | more relaxed information*/}
-                    <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 pb-20 justify-evenly mx-auto items-center">
+                    <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 py-20 justify-evenly mx-auto items-center">
                         <h3 className="relative uppercase tracking-[20px] text-gray-500 text-2xl ">
                             Potential FAQs!
                         </h3>
