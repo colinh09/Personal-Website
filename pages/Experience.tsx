@@ -59,11 +59,11 @@ const Home: NextPage = () => {
                 </div>
                 <div className = "p-20">
                     
-                </div>      
-            </div>
-            <div className = "bg-black sticky bottom-0 text-white">
-                    <Footer />  
-            </div>       
+                </div>
+                <div className = "bg-black sticky bottom-0 text-white">
+                        <Footer />  
+                </div>                        
+            </div>     
         </div>
     )
 }
