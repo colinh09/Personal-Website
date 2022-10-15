@@ -37,8 +37,8 @@ function Modal({handleClose, bullet_one, bullet_two, bullet_three, title, compan
         // animate="visible"
         // exit="exit"
         >
-            <h4 className="text-4xl font-light"> {title} </h4>
-            <p className = "font-bold text-2xl pb-9 mt-1"> {company} </p>
+            <h4 className="text-4xl font-light px-5"> {title} </h4>
+            <p className = "font-bold text-2xl pb-9 mt-1 px-5"> {company} </p>
             <ul className = "text-slate-500 list-disc space-y-4 ml-5 text-lg px-5">
                 <li>{bullet_one}</li>
                 <li>{bullet_two}</li>

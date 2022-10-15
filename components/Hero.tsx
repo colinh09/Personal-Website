@@ -21,7 +21,6 @@ function Hero({}: Props) {
     })
   return (
     <div className = "h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-        <BackgroundCircles />
         <Image className="relative rounded-full mx-auto object-cover" alt="Picture of Colin Hwang" src={me} width={200} height={200}/>
         <div className="z-20">
             <h2 className = "text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
