@@ -43,7 +43,7 @@ function Contact({}: Props) {
                     </div>
 
                     <div className = "flex items-center justify-center">
-                        <EnvelopeIcon className = "text-[#228C22] h-7 w-7 animate-pulse"/>
+                        <EnvelopeIcon className = "text-[#228C22] h-7 w-7 animate-pulse pb-10"/>
                         <p className="text-2xl">hcolin0910@gmail.com</p>
                     </div>
 
