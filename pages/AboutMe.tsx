@@ -100,12 +100,11 @@ const Home: NextPage = () => {
                                     </p>
                             </div>
                         </div>            
-                </section>
-
-                <div className = "bg-black sticky bottom-0">
-                    <Footer />  
-                </div>        
+                </section>   
              </div> 
+             <div className = "bg-black sticky bottom-0">
+                    <Footer />  
+            </div>     
         </div>
     )
 }
