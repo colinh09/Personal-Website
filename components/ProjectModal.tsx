@@ -24,7 +24,7 @@ function ProjectModal({handleClose, bullet_one, bullet_two, title, skills, link}
                 <li>{bullet_two}</li>
             </ul>
             <Link href={link} target = "_blank" >
-                <p className = " hover:text-[#228C22]/40 text-2xl pb-9 pt-20"> Click here to view the github repository for this project </p>
+                <p className = " hover:text-[#228C22]/40 text-2xl pb-9 pt-12"> Click here to view the github repository for this project </p>
             </Link>
             <button onClick={handleClose} className = "heroButton">Close</button>
         </motion.div>
