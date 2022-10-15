@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
 }
 
-images: {
+images = {
   path: `${basePath}/_next/image`,
 }
 
