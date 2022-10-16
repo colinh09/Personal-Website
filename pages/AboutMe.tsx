@@ -96,7 +96,7 @@ const Home: NextPage = () => {
                         <div className="space-y-5 px-0 md:px-10 pt-5">
                             <h4 className="lg:text-2xl text-md font-semibold">Favorite Food / Favorite Desert / Favorite Fruit / Chipotle Order?</h4>
                                 <p className = "lg:text-md text-sm text-justify">
-                                    Doenjang Jjigae / Brownies served hot with vanilla ice cream on top / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac), ask for a water cup and fill it with diet coke, take several spoons and forks.
+                                    Doenjang Jjigae / Brownies served hot with vanilla ice cream on top or some kind of lemon-flavored sorbet / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac).
                                 </p>
                         </div>
                     </div>  
