@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                     />
                 </div>
 
-                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
+                <div className = "w-full flex xl:pt-20 lg:pt-15 md:pt-10 pt-10 pb-30 flex-col md:text-left md:flex-row justify-evenly mx-auto items-center">
                     <div className = "md:pb-0 pb-10">
                         <ExperienceCard title = "Lifeguard" company="Town of North Hempstead" 
                         bullet_one="Underwent intensive CPR and lifeguard rescue training to prepare for real-world rescue scenarios." 
@@ -57,12 +57,9 @@ const Home: NextPage = () => {
                     bullet_three="Some other thing."
                     /> */}
                 </div>   
-                <div className = 'p-30'>
-
-                </div>
             </div>          
         {/* Remember that there's an issue here. If you add more experience cards, you will need y-overflow-scroll, and you will need to move this statement one block up. */}
-            <div className = "bg-black sticky bottom-0 text-white y-overflow-scroll">
+            <div className = "bg-black sticky bottom-0 text-white">
                 <Footer />  
             </div>  
         </div>
