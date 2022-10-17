@@ -57,11 +57,11 @@ const Home: NextPage = () => {
                     bullet_three="Some other thing."
                     /> */}
                 </div>   
+                <div className = "bg-black sticky bottom-0 text-white">
+                    <Footer />  
+                </div>  
             </div>          
         {/* Remember that there's an issue here. If you add more experience cards, you will need y-overflow-scroll, and you will need to move this statement one block up. */}
-            <div className = "bg-black sticky bottom-0 text-white">
-                <Footer />  
-            </div>  
         </div>
     )
 }
