@@ -18,7 +18,7 @@ const Home: NextPage = () => {
                     ABOUT ME
                 </h3>
             </div> */}
-             <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-auto">
+             <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-scroll mb-[-20px]">
                 {/* Header */}
                 <Header />
                 <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-10 justify-evenly mx-auto items-center">
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                             Potential FAQs!
                         </h3>
                     </div>
-                    <div className="relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 py-1 justify-evenly mx-auto items-center">
+                    <div className="relative text-center md:text-left md:flex-row max-w-7xl px-10 py-1 justify-evenly mx-auto items-center">
                         <div className="space-y-5 px-0 md:px-10">
                             <h4 className="lg:text-2xl text-md font-semibold">Favorite Programming Language(s) / Least Favorite Programming Language(s)?</h4>
                                 <p className = "lg:text-md text-sm text-justify">
@@ -99,11 +99,11 @@ const Home: NextPage = () => {
                                     Doenjang Jjigae / Brownies served hot with vanilla ice cream on top or some kind of lemon-flavored sorbet / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac).
                                 </p>
                         </div>
-                    </div>  
+                    </div>   
                     <div className = "bg-black sticky bottom-0 text-white">
                         <Footer />  
-                    </div>            
-             </div>     
+                    </div>     
+             </div>        
         </div>
     )
 }
