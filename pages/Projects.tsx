@@ -7,7 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 const Home: NextPage = () => {
     return (
         <div>
-             <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0 ">
+             <div className="bg-[#36393f] text-white h-screen overflow-y-scroll z-0">
                 {/* ----------------- HEADER ---------------------*/}
                 <Header />
                 <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-5 justify-evenly mx-auto items-center">
@@ -128,7 +128,7 @@ const Home: NextPage = () => {
                 </div>     
                 {/* ----------------- GAME DEV ---------------------*/}                                       
              </div>
-             <div className = "bg-black sticky bottom-0 text-white">
+             <div className = "bg-black sticky bottom-0 text-white overflow-y-hidden">
                 <Footer />  
              </div>     
         </div>
