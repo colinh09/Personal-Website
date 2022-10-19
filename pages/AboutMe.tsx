@@ -13,7 +13,12 @@ import Image from 'next/image'
 const Home: NextPage = () => {
     return (
         <div>
-             <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-scroll ">
+            {/* <div className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+                <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
+                    ABOUT ME
+                </h3>
+            </div> */}
+             <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-scroll">
                 {/* Header */}
                 <Header />
                 <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-10 justify-evenly mx-auto items-center">
@@ -94,11 +99,11 @@ const Home: NextPage = () => {
                                     Doenjang Jjigae / Brownies served hot with vanilla ice cream on top or some kind of lemon-flavored sorbet / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac).
                                 </p>
                         </div>
-                    </div>             
-             </div>
-             <div className = "bg-black sticky bottom-0 text-white">
-                <Footer />  
-             </div>      
+                    </div>  
+                    <div className = "bg-black sticky bottom-0 text-white">
+                        <Footer />  
+                    </div>            
+             </div>     
         </div>
     )
 }
