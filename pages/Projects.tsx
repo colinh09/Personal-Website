@@ -126,13 +126,11 @@ const Home: NextPage = () => {
                 <div className = "p-20">
                     
                 </div>     
-                {/* ----------------- GAME DEV ---------------------*/}       
-
-                
-                <div className = "bg-black sticky bottom-0">
-                    <Footer />  
-                </div>                                     
+                {/* ----------------- GAME DEV ---------------------*/}                                       
              </div>
+             <div className = "bg-black sticky bottom-0 text-white">
+                <Footer />  
+             </div>     
         </div>
     )
 }
