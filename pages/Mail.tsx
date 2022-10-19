@@ -6,12 +6,12 @@ import Header from '../components/Header';
 
 const Home: NextPage = () => {
     return (
-        <div className="bg-[#36393f] text-white h-screen overflow-y-auto z-0">
+        <div className="bg-[#36393f] text-white h-screen z-0">
             <Header />
 
             <Contact />
             <div className = "bg-black sticky bottom-0">
-                    <Footer />  
+                <Footer />  
             </div>   
         </div>
     )
