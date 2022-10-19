@@ -97,7 +97,7 @@ const Home: NextPage = () => {
                     </div>             
              </div>
              <div className = "bg-black sticky bottom-0 text-white">
-                        <Footer />  
+                <Footer />  
              </div>      
         </div>
     )

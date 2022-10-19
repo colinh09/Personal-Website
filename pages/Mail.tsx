@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
             <Contact />
             <div className = "bg-black sticky bottom-0">
-                <Footer />  
+                    <Footer />  
             </div>   
         </div>
     )
