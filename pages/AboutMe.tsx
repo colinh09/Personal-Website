@@ -99,11 +99,11 @@ const Home: NextPage = () => {
                                     Doenjang Jjigae / Brownies served hot with vanilla ice cream on top or some kind of lemon-flavored sorbet / Golden Kiwis / Brown rice, double chicken, black beans, tomato salsa, corn, fajitas, cheese, sour cream, lettuce, (sometimes guac).
                                 </p>
                         </div>
-                    </div>  
-                    <div className = "bg-black sticky bottom-0 text-white">
-                        <Footer />  
-                    </div>            
-             </div>     
+                    </div>          
+             </div>
+             <div className = "bg-black sticky bottom-0 text-white">
+                <Footer />  
+             </div>         
         </div>
     )
 }
