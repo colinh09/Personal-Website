@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Home: NextPage = () => {
     return (
         <div>
-            <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-scroll flex flex-col">
+            <div className="bg-[#36393f] text-white h-screen z-0 overflow-y-scroll">
                 <Header />
                 <div>
                     <div className="flex relative text-center md:text-left md:flex-row max-w-7xl px-10 lg:pb-10 pb-5 justify-evenly mx-auto items-center">
