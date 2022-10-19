@@ -128,7 +128,7 @@ const Home: NextPage = () => {
                 </div>     
                 {/* ----------------- GAME DEV ---------------------*/}                                       
              </div>
-             <div className = "bg-black sticky bottom-0 text-white overflow-y-hidden">
+             <div className = "bg-black sticky bottom-0 text-white">
                 <Footer />  
              </div>     
         </div>
