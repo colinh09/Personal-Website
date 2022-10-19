@@ -7,7 +7,7 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <div className="sticky bg-black flex items-start px-5 py-8 justify-between max-w-7xl mx-auto z-20 xl:items-center w-screen">
+    <div className="sticky bg-black mt-auto flex items-start px-5 py-8 justify-between max-w-7xl mx-auto z-20 xl:items-center w-screen">
         <motion.div 
         initial={{
         opacity: 0,
