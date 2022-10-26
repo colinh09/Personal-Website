@@ -57,7 +57,8 @@ const Home: NextPage = () => {
                     bullet_three="Some other thing."
                     /> */}
                 </div>                 
-            </div>       
+            </div>
+                   
             <div className = "bg-black sticky bottom-0 text-white">
                     <Footer />  
             </div>       
